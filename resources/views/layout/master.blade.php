@@ -11,13 +11,13 @@
 </head>
 
 <body>
-    @include('layouts/header')
+    @include('layout.header')
 
     <section>
         @yield('body')
     </section>
 
-    @include('layouts/footer')
+    @include('layout.footer')
 </body>
 
 </html>
